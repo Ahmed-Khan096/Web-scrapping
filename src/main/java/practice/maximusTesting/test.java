@@ -29,11 +29,11 @@ public class test {
 		
 		logger.info("opening portal!!!");
 		
-		driver.get("https://staging-securelogin.medcaremso.com/oauth/authorize/");
+		driver.get("place your website link here ");
 		
 		logger.info("Entering creadentials!!");
-		driver.findElement(By.id("txtEmail")).sendKeys("ahmedh@medcaremso.com");
-		driver.findElement(By.id("txtPaswd")).sendKeys("Medcaremso@43215");
+		driver.findElement(By.id("txtEmail")).sendKeys("your username");
+		driver.findElement(By.id("txtPaswd")).sendKeys("your password");
 		
 		driver.findElement(By.id("btnSubmit")).click();
 		Thread.sleep(10000);
